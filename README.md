@@ -57,6 +57,22 @@ Nesta aula fizemos a comunicação com a API e fizemos os últimos ajustes no pr
 ### Planejamento de Viagem
 ![Planejamento de Viagem](./screenshots/planejamento-viagem.png)
 
+## 🎨 Design do Projeto
+
+O design completo do projeto está disponível no Figma. Para visualizar acesse o link abaixo:
+
+[Figma - NLW Journey • Planejador de Viagem](https://www.figma.com/design/Gmj5hs1OBKKuPBSTDE2hdo/NLW-Journey-%E2%80%A2-Planejador-de-viagem-(Community)?node-id=3124-468&t=vpBHj0rWo6g7mFh4-0)
+
+Este design inclui todos os elementos visuais e detalhes de interface do usuário utilizados no projeto.
+
+## 📚 Documentação do Backend
+
+A documentação completa da API backend utilizada no projeto está disponível para referência. Consulte a documentação para entender os endpoints disponíveis, os parâmetros aceitos e as respostas retornadas.
+
+[Documentação da API - NLW Journey Backend](https://nlw-journey.apidocumentation.com/reference#tag/trips)
+
+Esta documentação inclui detalhes técnicos sobre como interagir com o backend para armazenamento e recuperação de viagens planejadas.
+
 ## 🔧 Passo a Passo para Clonar e Rodar o Projeto
 
 Siga os passos abaixo para clonar o repositório, instalar as dependências e iniciar o servidor do projeto:
