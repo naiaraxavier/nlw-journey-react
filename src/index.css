@@ -5,7 +5,9 @@
 
 * {
   min-width: 0;
+  --rdp-accent-color: #bef264;
 }
+
 
 input {
   color-scheme:dark
