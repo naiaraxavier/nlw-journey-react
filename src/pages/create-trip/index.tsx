@@ -63,11 +63,11 @@ export function CreateTripPage() {
   const createTrip = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
 
-    console.log(destination);
-    console.log(eventStartAndEndDates);
-    console.log(emailsToInvite);
-    console.log(ownerEmail);
-    console.log(ownerName);
+    // console.log(destination);
+    // console.log(eventStartAndEndDates);
+    // console.log(emailsToInvite);
+    // console.log(ownerEmail);
+    // console.log(ownerName);
 
     const validation = !destination || !eventStartAndEndDates?.from || !eventStartAndEndDates?.to
       || emailsToInvite.length === 0 || !ownerName || !ownerEmail
@@ -138,6 +138,7 @@ export function CreateTripPage() {
           createTrip={createTrip}
           setOwnerName={setOwnerName}
           setOwnerEmail={setOwnerEmail}
+          infoTrip={{ destination, eventStartAndEndDates }}
         />
       )}
 
