@@ -61,6 +61,44 @@ Nesta aula fizemos a comunicação com a API e fizemos os últimos ajustes no pr
 
 Siga os passos abaixo para clonar o repositório, instalar as dependências e iniciar o servidor do projeto:
 
+### Back-end
+### Pré-requisitos
+
+- Git
+- Node.js (versão 14 ou superior)
+- npm
+
+### Passo 1: Clonar o Repositório
+
+Clone o repositório do back-end do GitHub para o seu ambiente local:
+
+```bash
+git clone https://github.com/rocketseat-education/nlw-journey-nodejs.git
+cd nlw-journey-nodejs
+
+```
+
+### Passo 2: Configurar as Variáveis de Ambiente
+Crie um arquivo .env na raiz do projeto e copie o conteúdo do .env.example para ele.
+
+```bash
+cp .env.example .env
+```
+
+
+### Passo 3: Instalar as Dependências e Iniciar o Servidor
+Instale as dependências e inicie o servidor:
+
+
+```bash
+npm install
+npm run dev
+```
+O servidor do backend estará disponível em http://localhost:3333.
+
+
+### Front-end
+
 ### Pré-requisitos
 
 - Git
